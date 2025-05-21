@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import ItemList from './components/ItemList'; // Import the ItemList component
-import './App.css'; // Optional CSS import
+import './styles/App.css'; // Import the CSS file
 
 function App() {
   const [data, setData] = useState([]);
