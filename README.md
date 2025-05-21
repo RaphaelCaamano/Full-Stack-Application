@@ -18,7 +18,12 @@
 
 ---
 
-## Installation Instructions
+## Installation
+1. Clone the repository.
+2. Navigate to the frontend and backend directories.
+3. Run `npm install` in both directories.
+4. Start the backend with `node server.js`.
+5. Start the frontend with `npm start`.
 
 ### Requirements
 - Node.js (v14+ is recommended)
