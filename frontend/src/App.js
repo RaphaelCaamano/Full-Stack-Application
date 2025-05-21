@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ItemList from './components/ItemList'; // Import the ItemList component
 import './App.css'; // Optional CSS import
 
 function App() {
@@ -14,11 +15,7 @@ function App() {
   return (
     <div>
       <h1>My Full Stack App</h1>
-      <ul>
-        {data.map(item => (
-          <li key={item._id}>{item.name}</li>
-        ))}
-      </ul>
+      <ItemList items={data} /> {/* Use the ItemList component */}
     </div>
   );
 }
