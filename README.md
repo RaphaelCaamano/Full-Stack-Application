@@ -25,12 +25,12 @@
 4. Start the backend with `node server.js`.
 5. Start the frontend with `npm start`.
 
-### Requirements
-- Node.js (v14+ is recommended)
-- npm or yarn
-- PostgreSQL database (local or cloud, for example, Supabase or ElephantSQL)
-
 ### Clone the repository
 ```bash
 git clone https://github.com/yourusername/book-review-platform.git
 cd book-review-platform
+
+### Requirements
+- Node.js (v14+ is recommended)
+- npm or yarn
+- PostgreSQL database (local or cloud, for example, Supabase or ElephantSQL)
