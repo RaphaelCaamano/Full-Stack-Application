@@ -30,7 +30,15 @@
 git clone https://github.com/yourusername/book-review-platform.git
 cd book-review-platform
 
+---
+
 ### Requirements
 - Node.js (v14+ is recommended)
 - npm or yarn
 - PostgreSQL database (local or cloud, for example, Supabase or ElephantSQL)
+
+
+
+
+
+
