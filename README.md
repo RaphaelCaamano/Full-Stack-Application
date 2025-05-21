@@ -38,5 +38,3 @@
 ```bash
 git clone https://github.com/yourusername/book-review-platform.git
 cd book-review-platform
-
-
