@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import ItemList from './components/ItemList'; // Import the ItemList component
-import './styles/App.css'; // Import the CSS file
+import ItemList from './components/ItemList';
+import './styles/App.css';
 
 function App() {
   const [data, setData] = useState([]);
@@ -15,7 +15,7 @@ function App() {
   return (
     <div>
       <h1>My Full Stack App</h1>
-      <ItemList items={data} /> {/* Use the ItemList component */}
+      <ItemList items={data} />
     </div>
   );
 }
